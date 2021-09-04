@@ -18,8 +18,10 @@ void imprimeArreglo(int* arr, int n);
 int main(){
 	int* arr;
 	arr = generaArreglo(15);
+	printf("Arreglo inicial:\n");
 	imprimeArreglo(arr,15);
 	ordenaArreglo(arr,15);
+	printf("Arreglo ordenado descendentemente:\n");
 	imprimeArreglo(arr,15);
 }
 
